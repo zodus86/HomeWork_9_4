@@ -48,7 +48,7 @@ namespace HomeWork_9_4
 
             if (e.Message.Text == "/start")
             {
-                messageText = "Вас приветсвует секретный бот облако" +
+                messageText = $"{e.Message.Chat.FirstName} вас приветсвует секретный бот облако" +
                     "\nотправляйте мне свои документы и файлы я буду их хранить" +
                     "\nСписок доступных комманд:" +
                     "\n/seeFiles" +
